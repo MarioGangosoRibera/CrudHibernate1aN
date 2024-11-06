@@ -8,8 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crudhibernate1an.HelloApplication">
    <children>
       <Label layoutX="68.0" layoutY="43.0" text="Matricula" />
       <Label layoutX="68.0" layoutY="96.0" text="Marca" />
@@ -23,7 +22,7 @@
       <TableView fx:id="TableView" layoutX="43.0" layoutY="318.0" prefHeight="200.0" prefWidth="518.0">
         <columns>
           <TableColumn fx:id="columnMatricula" prefWidth="130.0" text="MATRICULA" />
-          <TableColumn fx:id="colunmMarca" prefWidth="126.0" text="MARCA" />
+          <TableColumn fx:id="columnMarca" prefWidth="126.0" text="MARCA" />
             <TableColumn fx:id="colunmModelo" prefWidth="145.0" text="MODELO" />
             <TableColumn fx:id="columnTipo" prefWidth="127.0" text="TIPO" />
         </columns>
